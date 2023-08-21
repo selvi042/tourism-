@@ -1,0 +1,28 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+.head
+{
+    width: 1500px;
+    background-color: brown;
+    color:white;
+    text-align: center;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/* span{
+    color:blue;
+} */
+table{
+    width: 100%;
+    background-color: lightyellow;
+}
+table,tr,td{
+    border: 1px solid black;
+    border-collapse:collapse;
+ul,li
+{
+ list-style-type: none;
+}

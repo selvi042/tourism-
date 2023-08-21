@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table With Form</title>
+    <link rel="stylesheet" href="day4.css">
+</head>
+<body>
+    <div class="head">
+        <p>Request for New PAN Card or/And changes or correction in PAN Data</p>
+        <p>Field marked with (astereik)mandatory to avoid mistakes please refer 
+            <span style="color:blue ;">guidlines</span> and <span style="color:blue ;">instructions</span></p>
+    </div>
+<br>
+<table>
+    <!-- 1st row -->
+    <tr>
+        <td>&nbsp;&nbsp;&nbsp;</td>
+        <td>* Wheather Citizen of India  <input type="radio"> Yes  <input type="radio">No</td>
+        <td rowspan="8">&nbsp;&nbsp;&nbsp</td>
+    </tr>
+    <!-- 2nd row -->
+    <tr>
+        <td>&nbsp;&nbsp;&nbsp;</td>
+        <td>* Permanent Account Number(PAN) <input type="text"></td>
+        
+    </tr>
+    <!-- 3rd row -->
+    <tr>
+        <td>&nbsp;<input type="checkbox"></td>
+        <td>* 1. Name </td>
+    </tr>
+    <!-- 4th row -->
+    <tr>
+        <td>&nbsp;&nbsp;&nbsp;</td>
+        <td>* Tittle  <input type="radio"> ShriMr <input type="radio">Sri/Mrs <input type="radio">Kumari/Ms
+    </tr>
+    <!-- 5th row -->
+    <tr>
+        <td>&nbsp;&nbsp;&nbsp;</td>
+        <td>
+            <table>
+                <tr>
+                    <td>
+                         <ul>
+                    <li>Lastname/Surname</li>
+                    <input type="text">
+                </ul>
+            </td>
+                <td>
+                     <ul>
+                    <li>First name</li>
+                    <input type="text">
+                </ul>
+            </td>
+            <td>
+                <ul>
+               <li>Middle name</li>
+               <input type="text">
+           </ul>
+       </td>
+     </table>
+    </td>
+    </tr>
+
+<!-- 6th row -->
+<tr>
+    <td>&nbsp;&nbsp;&nbsp;</td>
+    <td>Name as you like it printed on the card<span style="color:lightgreen ;">(Prefix like Shri,Kumari,Late,Dr,CA,Ms,Mrs,M/s,Alias etc are not allowed)</span></td>
+</tr>
+<tr>
+    <td>&nbsp;&nbsp;&nbsp;</td>
+    <td><input type="text" style="width:50% ;"></td>
+</tr>
+    <!-- 7th row -->
+    <tr>
+        <td>&nbsp;&nbsp;&nbsp;</td>
+        <td>*Details of parents<span style="color:lightgreen ;">(Prefix like Shri,Kumari,Late,Dr,CA,Ms,Mrs,M/s,Alias etc are not allowed)</span></td>
+    </tr>
+    <!-- 8th row -->
+    <tr>
+        <td>&nbsp;&nbsp;&nbsp;</td>
+        <td>Wheather mother is single parent and you wish to apply for Pan by furnishing the name of your mother only <input type="radio">Yes <input type="radio">No</td>
+    </tr>
+    <!-- 9th row -->
+    <tr>
+        <td>&nbsp;&nbsp;&nbsp;</td>
+        <td>Father's Name<span style="color:lightgreen;">(mandatary field Even married women should give father's name only)</span></td>
+    </tr>
+    <!-- 10th row -->
+    <td>&nbsp;&nbsp;&nbsp;</td>
+    <td>
+        <table>
+            <tr>
+                <td>
+                <ul>
+                    <li>Lastname/Surname</li>
+                    <input type="text">
+                </ul>
+                </td>
+                <td>
+                <ul>
+                    <li>First Name</li>
+                    <input type="text">
+                </ul>
+                </td>
+                <td>
+                <ul>
+                    <li>Middle Name</li>
+                    <input type="text">
+                </ul>
+                </td>
+            </tr>
+        </table>
+    </td>
+    <!-- 11th row -->
+    <tr>
+    <td>&nbsp;&nbsp;&nbsp;</td>
+    <td><span style="color:lightgreen">Mother's Name(This Field is optional)</span></td>
+  </tr>
+  <!-- 12th row -->
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;</td>
+    <td>
+        <table>
+            <td>
+                <ul>
+                    <li>LastName/Surname</li>
+                    <input type="text"></input>
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li>First Name</li>
+                    <input type="text"></input>
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li>Middle Name</li>
+                    <input type="text">
+                </ul>
+            </td>
+        </table>
+    </td>
+    
+  </tr>
+  <!-- 13th row -->
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;</td>
+    <td>*4 Select Parent name which is to be printed on the card</td>
+    <td rowspan="2"><input type="radio">Father's Name<input type="radio">Mother's Name</td>
+  </tr>
+  <!-- 14th row -->
+  <tr>
+    <td>&nbsp;&nbsp;&nbsp;</td>
+    <td>
+        <span style="color:lightgreen">(In case no option is provided then PAN card will be issued with Father's name)</span>
+    </td>
+  </tr>
+  <!-- 15th row -->
+  <tr>
+    <td>&nbsp;<input type="checkbox"></td>
+        
+                <td>*Date of Birth(Incorparation Aggrement Patnership or Trust)
+                Deed Formation of Body Of Individual Association of Persons</td>
+            <td>
+                <select>
+                        <option>MM</option><option>Jan</option><option>Feb</option><option>Mar</option><option>April</option>
+                </select>
+            <select>
+                <option>DD</option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option>
+            </select>
+            <select>
+                <option>YYYY</option><option>2021</option><option>2022</option><option>2023</option><option>2024</option><option>2025</option>
+            </select></td>
+        
+    </td>
+   
+  </tr>
+  <!-- 16th row -->
+  <tr>
+    <td>&nbsp;<input type="checkbox"></td>
+    <td>*6 Gender </td><td><input type="radio">Male<input type="radio"> Female<input type="radio">Transgender</td>
+  </tr>
+  <!-- 17th row -->
+  <tr>
+    <td>&nbsp;<input type="checkbox"></td>
+    <td>7 Photo Missmatch</td>
+  </tr>
+  <!-- 18th row -->
+  <tr>
+    <td>&nbsp;<input type="checkbox"></td>
+    <td>8 Signature Mismatch</td>
+  </tr>
+  <!-- 19th row -->
+  <tr>
+    <td>&nbsp;<input type="checkbox"></td>
+    <td>9 Address for Communication <input type="radio">Residental<input type="radio">Office</td>
+</tr>
+<!-- 20th row -->
+<tr>
+    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+    <td>Office Name(to be filled in case of office address)<input type="text"></td>
+</tr>
+<!-- 21st row -->
+<tr>
+    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+    <td>Flat Door/Block No.<input type="text"></td>
+</tr>
+<!-- 22nd row -->
+<tr>
+    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+    <td>Name of the Premises/Building Village<input type="text"></td>
+</tr>
+<!-- 23 rd row -->
+<tr>
+    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+    <td>Road/Street/Lane/Postoffice<input type="text"></td>
+</tr>
+<!-- 24 th row -->
+<tr>
+    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+    <td>Town/City/Districs<input type="text"></td>
+</tr>
+<!-- 25th row -->
+ <tr>
+    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+    <td>State/Union Territory</td>
+    <td><select>
+    <option>State</option><option>Andhra Pradesh</option><option>Arunachal Pradesh</option><option>Assam</option><option>Bihar</option>
+    <option>Goa</option><option>Tamil Nadu</option><option>Punjab</option><option>Jaipur</option>
+</select></td>
+ </tr>   
+ <!--26th row  -->
+    <tr>
+        <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+        <td>PIN(Pin including is mandatory)<input type="text"></td>
+    </tr>
+</table>
+</body>
+</html>
